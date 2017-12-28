@@ -1,0 +1,12 @@
+.imgT{
+  width: 150px;
+}
+.shrink:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition:all 0.3s ease;
+}
+.shrink{
+  transition:all 0.3s ease;
+}

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css"  crossorigin="anonymous">
+    <!--Icono -->
+    <link rel="shortcut icon" href="images/logo.ico">
+    <title>Meraki Web Studio</title>
+
+    <!--  Archivos CSS propios -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/copy.css">
+    <link rel="stylesheet" href="css/imagen.css">
+    <link rel="stylesheet" href="css/tecnologias.css">
+    <link rel="stylesheet" href="css/iconos-fa.css"> <!-- Archivo para modificar iconos de fa-font-awesome -->
+
+    <!-- Scripts -->
+    <script src="js/smooth-scroll.min.js" charset="utf-8"></script>
+    <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="js/ocultar.js" charset="utf-8"></script>
+    <script>
+      smoothScroll.init();
+    </script>
+  </head>
+
+
+  <!--Body -->
+
+  <body data-spy="scroll" data-target="#menu">
+
+    <!-- Logo de la empresa en el nav bar -->
+
+    <section id="inicio">
+    <nav class="navbar navbar-inverse bg-inverse navbar-toggleable-sm fixed-top" id="menu" style="background-color: rgba(138,221,45,0);">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#" id="cosa">
+        <img src="images/logo.ico" width="30" height="30" class="d-inline-block align-top" alt=""> Meraki Web Studio
+      </a>
+      <div class="collapse navbar-collapse ml-5 letraB" id="navbarTogglerDemo01">
+          <ul class="navbar-nav mr-auto ml-auto text-center nav-pills">
+             <li class="nav-item">
+              <a data-scroll href="#inicio" class="nav-link active">Inicio</a>
+             </li>
+             <li class="nav-item">
+               <a data-scroll href="#servicios" class="nav-link">Servicios</a>
+             </li>
+             <li class="nav-item">
+               <a data-scroll href="#portafolio" class="nav-link">Portafolio</a>
+             </li>
+             <li class="nav-item">
+               <a data-scroll href="#contacto" class="nav-link">Contacto</a>
+             </li>
+            </ul>
+          <div class="text-center">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#myModall">
+              Inicio
+            </button>
+          </div>
+      </div>
+    </nav>
+  </section>
+  <br><br>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModall" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ingreso al sistema</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <form class="" action="index.html" method="post">
+                <div class="form-group">
+                  <label for="formGroupExampleInput">Usuario</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingresa tu usuario">
+                </div>
+                <div class="form-group">
+                  <label for="formGroupExampleInput">Contraseña</label>
+                  <input type="password" class="form-control" id="formGroupExampleInput" placeholder="Ingresa tu contraseña">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <a href="admin2/index.html"><button type="button" class="btn btn-success">Entrar</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="image">
+    <img src="images/res.jpg" class="img-fluid" id="imagen" alt="">
+		<h1 class="hidden-sm-down" id="cosa"><span>¡Contactanos para tu propia página web!</span></h1>
+
+	</div>
+
+
+    <!--Fin de slider -->
+
+    <!-- Inicio de servicios -->
+    <section class="mb-4 pt-2" id="servicios">
+      <div class="container align-items-center mt-5 mb-5">
+        <div class="row mt-2">
+          <div class="col-lg-12 col-md-12 col-sm-12 text-center mb-5 mt-5"><h1>¿Que ofrecemos?</h1></div><br><br>
+        </div>
+        <div class="row text-center">
+          <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+            <p class="text-center tituloP"><strong>Desarrollo App moviles</strong></p>
+            <i class="fa fa-mobile fa-5x" aria-hidden="true" id="mobile"></i>
+
+            <p class="text-justify">Una aplicación movil para tu negocio para estar en contacto con tus clientes! Mantenlos actualizados sobre tus promociones y novedades.</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+              Leer más
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">¿Que es el diseño responsivo?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    El diseño responsivo permite que un sitio web se mire de manera adecuada en diferentes dispositvos, ya sea una computadora, una tableta o un celular movil
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Fin del modal -->
+          </div>
+
+          <!-- Segunda columna -->
+          <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+            <p class="text-center tituloP"><strong>Velocidad de carga</strong></p>
+            <i class="fa fa-bolt fa-5x" id="trueno" aria-hidden="true"></i>
+            <p class="text-justify">Tu página web cargara rapidamente y siempre estara "online" ya que utilizamos los mejores servicios de alojamiento para garantizar la calidad.</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
+              Leer más
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">¿Que es el diseño responsivo?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p class="text-justify">Tu página web siempre esta disponible y cargara rapido</p>
+                  </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Fin del modal -->
+          </div>
+          <!-- Fin segunda columna -->
+
+
+
+          <!-- Tercera columna -->
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <p class="text-center tituloP"><strong>Hosting "verde"</strong></p>
+            <i class="fa fa-leaf fa-5x" id="hoja" aria-hidden="true"></i>
+            <p class="text-justify">Alojamos las páginas web de nuestros clientes en hostings "verdes" para ayudar a nuestro planeta y ahorrar recursos.</p> <br>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">
+              Leer más
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">¿Que es un host "verde"?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Son hostings que utilizan energias renovables para manetener sus servidores, como paneles solares, hidroelectricas etc...
+                      esto contribuye a mantener nuestro medio ambiente :)
+                    </p>
+                  </div>
+
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Fin del modal -->
+          </div>
+        </div>
+
+
+        <!-- Aqui inician las tecnlogias -->
+        <div class="row text-center mt-5">
+          <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+            <h2>¡Tecnologías que usamos!</h2>
+          </div>
+          <div class="col-sm-12 col-md-3 col-lg-3">
+            <img src="images/tec/node.png"  class="img-fluid imgT shrink" alt="">
+          </div>
+          <div class="col-sm-12 col-md-3 col-lg-3">
+            <img src="images/tec/mongo.png"  class="img-fluid imgT shrink" alt="">
+          </div>
+          <div class="col-sm-12 col-md-3 col-lg-3">
+            <img src="images/tec/Bootstrap.png"  class="img-fluid imgT shrink" alt="">
+          </div>
+          <div class="col-sm-12 col-md-3 col-lg-3">
+            <img src="images/tec/php.png"  class="img-fluid imgT shrink" alt="">
+          </div>
+        </div>
+        <!-- Aqui finalizan las tecnlogias -->
+      </div>
+    </section>
+    <!-- Fin de servicios -->
+
+
+
+  <!-- Portafolio -->
+  <div class="jumbotron" id="portafolio">
+    <h1 class="display-3 text-center">Nuestro portafolio</h1>
+    <hr class="my-4">
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <img class="img-fluid" src="images/sitioC.png" id="sitios" alt="">
+          <h3>Sitio en construcción</h3>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <img class="img-fluid" src="images/sitioC.png" id="sitios" alt="">
+          <h3>Sitio en construcción</h3>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <img class="img-fluid" src="images/sitioC.png" id="sitios" alt="">
+          <h3>Sitio en construcción</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fin del portafolio -->
+
+  <!-- Inicio del footer -->
+  <footer>
+  <div class="jumbotron" id="contacto">
+    <h1 class="display-3 text-center"></h1>
+    <p class="lead text-center">Contacta directamente con nosotros.</p>
+    <hr class="my-4">
+
+
+    <div class="container">
+      <div class="row">
+        <div class="text-center col-sm-12 col-md-6 col-lg-6">
+          <p>Nuestras redes sociales.</p>
+          <a href="#"><i class="fa fa-facebook-square fa-3x mr-3" id="face" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/Merakiwebstudio/"><i class="fa fa-instagram fa-3x mr-3" id="instagram" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-twitter-square  fa-3x" id="twitter"aria-hidden="true"></i></a>
+          <br><br>
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="fa fa-phone fa-1x" aria-hidden="true">+502 (3065-7979), +502 (3022-8751) </p>
+              <br>
+              <p class="fa fa-map-marker fa-1x" aria-hidden="true"> Diag 16 11-75 Z.1 Quetgo</p>
+              <br>
+              <p class="fa fa-envelope fa-1x" aria-hidden="true"> Merakiwebstudiogt@gmail.com</p>
+
+
+            </div>
+          </div>
+
+
+        </div>
+        <div class="text-center col-sm-12 col-md-4 col-lg-4">
+
+        <form action="enviarCorreo.php">
+          <div class="form-group">
+            <strong><label for="exampleInputEmail1">Nombre</label></strong>
+            <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="emailHelp" placeholder="Ingresa tu nombre">
+            <small id="emailHelp" class="form-text text-muted">Nadie más vera tus datos.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleTextarea">Mensaje</label>
+            <textarea class="form-control" id="mensaje" name="mensaje" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        <br>
+
+        </div>
+        <p class="text-center">Pagina desarrollada por Meraki Web Studio</p>
+      </div>
+    </div>
+
+  </div>
+  </footer>
+
+
+  <!-- Fin del footer -->
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="js/ocultar.js" charset="utf-8"></script>
+
+  </body>
+</html>

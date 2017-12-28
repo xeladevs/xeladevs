@@ -1,0 +1,19 @@
+.borde{
+  border: 1px solid #333;
+}
+.fondo1{
+  background-color:grey;
+}
+.fondo2{
+  background-color: red;
+}
+.fondo3{
+  background-color: blue;
+}
+.fondo4{
+  background-color: yellow;
+  height: 500px;
+}
+img{
+  height: 50px;
+}

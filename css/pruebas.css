@@ -1,0 +1,12 @@
+.fondo{
+  background: url('../images/carretera.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.encabezado{
+  color:white;
+}
+.fondoWe{
+  background: white;
+}

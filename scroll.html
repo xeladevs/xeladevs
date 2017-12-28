@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css"  crossorigin="anonymous">
+    <!--Icono -->
+    <link rel="shortcut icon" href="images/kuk.ico">
+    <title>KukSoft</title>
+
+    <!--  Archivos CSS propios -->
+    <link rel="stylesheet" href="css/principal.css">
+  </head>
+  <body data-spy="scroll" data-target="#menu">
+
+    <!-- Logo de la empresa en el nav bar -->
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top" id="menu">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Navbar</a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto nav-pills">
+            <li class="nav-item">
+         <a class="nav-link active" href="#index.html">Inicio</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#servicios">Servicios</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#portafolio">Portafolio</a>
+       </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+    <!-- Inicio de Slider-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active" style="height:100vh">
+            <img class="d-block img-fluid" src="images/res.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+               <h3>¡Tu propia página web!</h3>
+               <p>Diseño responsivo</p>
+               <button type="button" class="btn btn-info" name="button">Planes</button>
+             </div>
+
+          </div>
+          <div class="carousel-item" style="height:100vh">
+            <img class="d-block img-fluid" src="images/2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item" style="height:100vh">
+            <img class="d-block img-fluid" src="images/3.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+
+    <!--Fin de slider -->
+
+    <!-- Cards de servicios -->
+    <!--
+    <section class="container mt-5" id="servicios">
+      <h1>Servicios</h1>
+      <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top img-fluid tamanioCards" src="images/sq.png" alt="Card image cap">
+          <div class="card-block">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <a class="btn btn-primary" href="#" role="button">Link</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top img-fluid tamanioCards" src="images/bs.png" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <a class="btn btn-primary" href="#" role="button">Link</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top img-fluid tamanioCards" src="images/to.png" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <a class="btn btn-primary" href="#" role="button">Link</a>
+        </div>
+      </div>
+    </div>
+    </section>
+    -->
+
+
+    <section class="mb-4 pt-5" id="servicios">
+      <div class="container align-items-center mt-5 mb-5">
+        <div class="row mt-2">
+          <div class="col-lg-12 col-md-12 col-sm-12 text-center mb-5 mt-5"><h1>Planes</h1></div><br><br>
+        </div>
+        <div class="row text-center">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <p class="text-center tituloP"><strong>Diseño responsivo</strong></p>
+            <p class="text-justify">Permite que tu pagina web se vea increible en computadoras, tabletas y telefonos moviles siempre con el mejor diseño y la más alta comodidad</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+              Leer más
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">¿Que es el diseño responsivo?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    El diseño responsivo permite que un sitio web se mire de manera adecuada en diferentes dispositvos, ya sea una computadora, una tableta o un celular movil
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <p class="text-center tituloP"><strong>Diseño responsivo</strong></p>
+            <p class="text-justify">Permite que tu pagina web se vea increible en computadoras, tabletas y telefonos moviles siempre con el mejor diseño y la más alta comodidad</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <p class="text-center tituloP"><strong>Diseño responsivo</strong></p>
+            <p class="text-justify">Permite que tu pagina web se vea increible en computadoras, tabletas y telefonos moviles siempre con el mejor diseño y la más alta comodidad</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <br><br><br><br>
+
+  <!-- Portafolio -->
+  <div class="jumbotron" id="portafolio">
+    <h1 class="display-3 text-center">Nuestro portafolio</h1>
+    <p class="lead text-center">Nuestro respaldo son los clientes satisfechos.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </p>
+    <div class="container">
+      <div class="row">
+        <div class="text-center col-sm-12 col-md-4 col-lg-4">
+          <h1>Hola</h1>
+        </div>
+        <div class="text-center col-sm-12 col-md-4 col-lg-4">
+          <h1>Hola</h1>
+        </div>
+        <div class="text-center col-sm-12 col-md-4 col-lg-4">
+          <h1>Hola</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="text-center col-sm-12 col-md-4 col-lg-4">
+          <h1>Hola</h1>
+        </div>
+        <div class="text-center col-sm-12 col-md-4 col-lg-4">
+          <h1>Hola</h1>
+        </div>
+        <div class="text-center col-sm-12 col-md-4 col-lg-4">
+          <h1>Hola</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="text-center col-sm-12 col-md-4 col-lg-4">
+          <h1>Hola</h1>
+        </div>
+        <div class="text-center col-sm-12 col-md-4 col-lg-4">
+          <h1>Hola</h1>
+        </div>
+        <div class="text-center col-sm-12 col-md-4 col-lg-4">
+          <h1>Hola</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fin del portafolio -->
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  </body>
+</html>
