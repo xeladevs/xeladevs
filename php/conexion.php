@@ -1,5 +1,11 @@
 <?php
-$enlace = mysqli_connect("127.0.0.1", "root", "hb87", "Xeladevs");
+$host = "localhost";
+$uw = "root";
+$pwd  = "hb87";
+$bd = "xeladevs";
+
+//$enlace = mysqli_connect("localhost", "root", "hb87", "xeladevs");
+$enlace = mysqli_connect($host, $uw, $pwd, $bd);
 
 if (!$enlace) {
     echo "Error: No se pudo conectar a MySQL." . PHP_EOL;

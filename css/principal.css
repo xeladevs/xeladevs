@@ -14,5 +14,8 @@ body{
   font-size: 23px;
 }
 #sitios{
-  width: 250px; 
+  width: 250px;
+}
+.fondo-tecnologias{
+  background-color: #3a3b3c;
 }
